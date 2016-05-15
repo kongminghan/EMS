@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="#eeeeee"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:weightSum="1">
+
+
+        <!-- Emp Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/updEmp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:hint="Employee No"
+                android:autoText="false"
+                android:textColorHint="#727272"
+                android:textColor="#727272"
+                android:textColorLink="#727272" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Name Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/updName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Name"
+                android:autoText="false"
+                android:textColorHint="#727272"
+                android:textColor="#727272"
+                android:textColorLink="#727272" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Username Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/updUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Username"
+                android:autoText="false"
+                android:textColorHint="#727272"
+                android:textColor="#727272"
+                android:textColorLink="#727272" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!--&lt;!&ndash; Password Label &ndash;&gt;-->
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_marginBottom="8dp">-->
+            <!--<EditText android:id="@+id/updPassword"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:inputType="textPassword"-->
+                <!--android:hint="Password"-->
+                <!--android:autoText="false"-->
+                <!--android:textColorHint="#727272"-->
+                <!--android:textColor="#727272"-->
+                <!--android:textColorLink="#727272" />-->
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+
+
+        <!-- ic Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/updIC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="NRIC"
+                android:autoText="false"
+                android:textColorHint="#727272"
+                android:textColor="#727272"
+                android:textColorLink="#727272" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:entries="@+array/gender_array"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:spinnerMode="dropdown"
+            android:id="@+id/updGender" />
+
+        <!-- email Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/updEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Email"
+                android:autoText="false"
+                android:textColorHint="#727272"
+                android:textColor="#727272"
+                android:textColorLink="#727272" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- tel Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/updTel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Tel No"
+                android:autoText="false"
+                android:textColorHint="#727272"
+                android:textColor="#727272"
+                android:textColorLink="#727272" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- date of employment Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/updEdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Employment Date"
+                android:autoText="false"
+                android:textColorHint="#727272"
+                android:textColor="#727272"
+                android:textColorLink="#727272" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/b_Update"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:text="Update"
+            android:background="#9fa8da"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+</ScrollView>

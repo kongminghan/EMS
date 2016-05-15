@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">EMS</string>
+    <string name="title_activity_user_main">UserMainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_user">MainUserActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string-array name="month_array">
+        <item>Pick a month</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="user_type">
+        <item>user</item>
+        <item>admin</item>
+    </string-array>
+
+    <string-array name="gender_array">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+    <string name="title_activity_delete_user">DeleteUser</string>
+
+</resources>
