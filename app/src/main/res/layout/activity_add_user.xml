@@ -29,11 +29,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp">
-            <EditText android:id="@+id/add_emp"
+            <EditText android:id="@+id/add_code"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textCapWords"
-                android:hint="Employee code"
+                android:hint="Access code"
                 android:textColor="#727272"
                 android:textColorHint="#727272"
                 android:textColorLink="#727272"
